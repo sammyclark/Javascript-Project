@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+ 
+<head>
+
+  
+</head>
+
+  
+<body>
+    
+<!-- Span has an id of demo for us to access in javascript -->
+
+<span id="demo"></span>
+
+
+
+<script>
+// Add an event lister which invokes the myfirst function when the webpage first loads - the window object has a method called add eventlistener which accepts 3 arguments. Arg 1  = event it is listening for, arg 2 = function it is invoking, arg 3 = boolean which is generally set to false
+    
+  window.addEventListener('load',myfirst,false);
+  
+function myfirst(){
+    
+window.alert("Hello World using an Event Listener");
+    
+document.getElementById("demo").innerHTML = "Hello World";
+  }
+    
+</script>
+  
+</body>
+
+
+</html>
