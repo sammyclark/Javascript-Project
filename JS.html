@@ -21,11 +21,14 @@
 // Add an event lister which invokes the myfirst function when the webpage first loads - the window object has a method called add eventlistener which accepts 3 arguments. Arg 1  = event it is listening for, arg 2 = function it is invoking, arg 3 = boolean which is generally set to false
     
   window.addEventListener('load',myfirst,false);
-  
+    
+// function = set of instructions that can be called repeatedly in a program  
 function myfirst(){
-    
+
+// window object and calling the alert method which accepts a string argument
 window.alert("Hello World using an Event Listener");
-    
+
+//javascript is accessing a dom object (document) and a common method to the HTML page where there is a  element with an id = demo
 document.getElementById("demo").innerHTML = "Hello World";
   }
     
