@@ -22,6 +22,7 @@ switch (new Date().getDay()) {
         day = "Saturday";
         break;
 }
-document.getElementById("whatday").innerHTML = "Today is " + day;
+document.getElementById("demo").innerHTML = "Today is " + day;
 
-        
+
+ //UNFINISHED       
