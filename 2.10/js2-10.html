@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+</head> 
+<body>
+    
+
+    
+<p id="numloop"></p>
+    
+<button onclick="spinningbirds()">Click me!</button>   
+
+        
+
+
+
+
+  
+    
+<script>
+function spinningbirds() {
+    var text = "";
+    var i, j;
+
+    for (i = 0; i < 11; i++) {
+        text += "<br>" + "i = " + i + ", j = ";   
+
+        for (j = 0; j < 11; j++) {
+            document.getElementById("numloop").innerHTML = text += j + " ";
+        }
+    }
+}
+</script>
+</body>
+
+
+</html>
