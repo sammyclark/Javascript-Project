@@ -15,7 +15,6 @@ var userinput = parseInt(document.getElementById("input1").value);
 var y = userinput + 1;
 var z = userinput - 1; 
   
-//YOU ARE STUCK. YOU NEED TO KNOW HOW TO DISPLAY TWO SEPERATE VALUES
  //   document.getElementById("answer").innerHTML = y + " , " + z;
    document.getElementById("answer").innerHTML = (userinput + 1) + "," + (userinput - 1);
  
@@ -24,5 +23,3 @@ var z = userinput - 1;
     
 } //end of function    
 
-    
-//~INCOMPLETE!!~ Please come back to this 
