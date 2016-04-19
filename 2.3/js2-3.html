@@ -5,23 +5,29 @@
 </head> 
 <body>
     
-    <form> 
-        <input type="text" id ="input1"/>
-        
-    </form>
-
-    
-    
-    <div><button id="button1">Button</button></div>
-    <div id="answer"></div>
-        
-
-
-
-
   
+ <div id="gv"></div>
+ <div id="lv"></div>
+       
     
-<script src="script2-3.js"></script>
+<script>
+ 
+
+  // Set and write Global variable
+   var x = 10; 
+   document.getElementById("gv").innerHTML = "Global x = " + x;
+  
+myfirst();   
+    
+function myfirst(){
+    
+    var x = 5;
+    document.getElementById("lv").innerHTML = "Local variable x = " + x;
+  
+       
+} //end of function  
+    
+    </script>
 </body>
 
 
