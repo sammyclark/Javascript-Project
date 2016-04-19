@@ -9,19 +9,20 @@ function myfirst(){
  //  alert("event listener is working");
     
 //User input x - storing the users input into a local variable called userinputx
-var userinput1 = parseInt(document.getElementById("input1").value);
-alert("userinput1");
+var userinput = parseInt(document.getElementById("input1").value);
+//alert("userinput");
 
-
- //if specifies a block of code to be executed if a specified condition is true, else specifies a block of code to be executed if that condition is false   
- //if (userinput1 = userinput2) {
-    document.getElementById("answer").innerHTML = "same";
-//} else { 
-    //document.getElementById("answer").innerHTML = "different";
-//}    
+var y = userinput + 1;
+var z = userinput - 1; 
+  
+//YOU ARE STUCK. YOU NEED TO KNOW HOW TO DISPLAY TWO SEPERATE VALUES
+ //   document.getElementById("answer").innerHTML = y + " , " + z;
+   document.getElementById("answer").innerHTML = (userinput + 1) + "," + (userinput - 1);
+ 
   
     
     
 } //end of function    
 
     
+//~INCOMPLETE!!~ Please come back to this 
