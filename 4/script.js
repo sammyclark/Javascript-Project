@@ -8,7 +8,7 @@ event1.addEventListener('click',myfirst,false);
 function myfirst(){
    //alert("event listener is working");
     
-
+//User input x - storing the users input into a local variable called userinputx
 var userinput1 = parseInt(document.getElementById("input1").value);
 //alert("userinput1");
 var userinput2 = parseInt(document.getElementById("input2").value);
