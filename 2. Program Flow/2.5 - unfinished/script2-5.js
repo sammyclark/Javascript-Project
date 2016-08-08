@@ -1,3 +1,5 @@
+function getdayandtime(){
+
 var day;
 switch (new Date().getDay()) {
     case 0:
@@ -21,8 +23,15 @@ switch (new Date().getDay()) {
     case  6:
         day = "Saturday";
         break;
+    default
+        day="I don't know"
 }
-document.getElementById("demo").innerHTML = "Today is " + day;
 
+var hours = today.getHours();
+var minutes = today.getMinutes();
+var time = hours + ":" + minutes
+        
+document.getElementById("demo").innerHTML = "Today is " + day;
+}
 
  //UNFINISHED       
