@@ -16,7 +16,7 @@ var y = userinput + 1;
 var z = userinput - 1; 
   
  //   document.getElementById("answer").innerHTML = y + " , " + z;
-   document.getElementById("answer").innerHTML = (userinput + 1) + "," + (userinput - 1);
+   document.getElementById("answer").innerHTML = (z) + "," + (y);
  
   
     
