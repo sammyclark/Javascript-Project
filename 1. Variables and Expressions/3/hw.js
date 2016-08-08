@@ -1,3 +1,4 @@
+//Variables and expressions 3 - take user input and display it on page
 
 //EVENT LISTENER - invokes the myfirst function when the button is clicked 
 var event1 = document.getElementById("button1");
