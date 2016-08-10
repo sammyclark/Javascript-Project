@@ -1,42 +1,64 @@
 <html>
 <head> 
+    <style>
+        p
+            {
+                color : dodgerblue;
+                font-family : verdana;
+            }
+        ol 
+            {
+                font-family : verdana; 
+            }
+    </style>
 </head> 
 <body>
 
     <h1>Cheer Quiz</h1>
-    <br/>
+    <p>Type in the correct answer and hit the 'Submit' button.</p>
         <ol type = "1" >
-            <li>How many athletes are allowed on the floor in Medium All Girl and Medium Coed</li>
-                <ol type = "a">
-                    <li>36</li>
-                    <li>30</li>
-                    <li>21</li>
-                    <li>24</li>
-                </ol>
+            <li>How many athletes are allowed on the floor in Medium All Girl and Medium Coed?</li>
+                <br/>
+                <span id = "answers1"></span>
                 <input id = "q1"/>
-            <br/>
+                <button id = "button1">Submit</button>
+                <br/>
+                <span id = "dis1"></span>
+                <br/>
             <li>What is CheerSport Sharks flagship team?</li>
-                <ol type = "a">
-                    <li>Small Senior X Sharks</li>
-                    <li>Grey Reef Sharks</li>
-                    <li>Starspotted Sharks</li>
-                    <li>Great White Sharks</li>
-                </ol>
-                <input id = "q2"/>
-            <br/>
+                <br/>
+                <span id = "answers2"></span>
+                <input id = "q2"/> 
+                <button id = "button2">Submit</button>
+                <br/>
+                <span id = "dis2"></span>
+                <br/>
             <li>What year did Lady Bullets win Worlds (pre 2017)?</li>
-                <ol type = "a">
-                    <li>2013</li>
-                    <li>2014</li>
-                    <li>2015</li>
-                    <li>2016</li>
-                </ol>
-                <input id = "3"/>
-            <br/>
-         
-
+                <br/>
+                <span id = "answers3"></span>
+                <input id = "q3"/>
+                <button id = "button3">Submit</button>
+                <br/>
+                <span id = "dis3"></span>
+                <br/>
+            <li>What team has Gabi Butler not been on?</li>
+                <br/>
+                <span id = "answers4"></span>
+                <input id = "q4"/>
+                <button id = "button4">Submit</button>
+                <br/>
+                <span id = "dis4"></span>
+                <br/>
+            <li>What is the minimum number of tricks for a level 5 basket?</li>
+                <br/>
+                <span id = "answers5"></span>
+                <input id = "q5"/>
+                <button id = "button5">Submit</button>
+                <br/>
+                <span id = "dis5"></span>
+                <br/>
         </ol>
-        
+        <span id = "demo"></span>
   
     <script src="quizscript.js"></script>
 </body>
