@@ -20,7 +20,7 @@ var worlds =
         }
  
 };
-//defined object with properties and nested properties
+//defined object with properties and nested properties 
 
         document.getElementById("openspace").innerHTML = worlds.LargeCoed.w2014;
 //return winner of LC5 2014 on button click
