@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" href="tc.css">
+</head> 
+<body>
+    <h1>Income Tax Calculator</h1>
+    <br/>
+    <p class = "bold" id = "ital">Calculate the amount of tax you have to pay on your gross annual salary.</p>
+    <br/>
+    <br/>
+    <p id = "instructions">I earn: £
+        <input id = "incomeinput"/>
+        <button id = "button1">Calculate tax</button></p>
+    <br>
+    <p class = "bold">Gross Income: </p>
+    <span id = "grossincome" class = "monies"></span>
+    <br/>
+    <p class = "bold">Personal allowance:</p>
+    <span id = "personal" class = "monies"></span>
+    <br/>
+    <p class = "bold">Basic rate (20%): </p>
+    <span id = "20tax" class = "monies"></span>
+    <br/>
+    <p class = "bold">Higher rate (40%): </p>
+    <span id = "40tax" class = "monies"></span>
+    <br/>
+    <p class = "bold">Total tax due: </p>
+    <span id = "totaltax" class = "monies"></span>
+    <br/>
+    <p class = "bold">Net income: </p>
+    <span id = "netincome" class = "monies"></span>
+    <br/>
+    <br/>
+    <br/>
+    <p id = "disclaimer">This does not include National Insurance Contributions (or other complications) because I'm terrible at maths</p>
+    <a href = "https://www.gov.uk/income-tax-rates/current-rates-and-allowances" target = "_blank">Click here for further information on taxes</a>
+       
+<script src="taxc.js"></script>
+</body>
+
+
+</html>
